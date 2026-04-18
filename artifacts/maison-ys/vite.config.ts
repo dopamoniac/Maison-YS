@@ -55,7 +55,7 @@ export default defineConfig(async ({ command }) => {
     },
     root: __dirname,
     build: {
-      outDir: path.resolve(__dirname, "dist/public"),
+      outDir: path.resolve(__dirname, "dist"),
       emptyOutDir: true,
     },
     server: {
